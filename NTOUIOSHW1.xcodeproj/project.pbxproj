@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		75D34458206B76B900325DC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D34457206B76B900325DC5 /* AppDelegate.swift */; };
-		75D3445A206B76B900325DC5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D34459206B76B900325DC5 /* ViewController.swift */; };
 		75D3445D206B76B900325DC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D3445B206B76B900325DC5 /* Main.storyboard */; };
 		75D3445F206B76B900325DC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75D3445E206B76B900325DC5 /* Assets.xcassets */; };
 		75D34462206B76B900325DC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75D34460206B76B900325DC5 /* LaunchScreen.storyboard */; };
 		75D3446D206B76B900325DC5 /* NTOUIOSHW1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D3446C206B76B900325DC5 /* NTOUIOSHW1Tests.swift */; };
 		75D34478206B76B900325DC5 /* NTOUIOSHW1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D34477206B76B900325DC5 /* NTOUIOSHW1UITests.swift */; };
+		75D34486206B784400325DC5 /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D34485206B784400325DC5 /* MasterTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		75D34454206B76B900325DC5 /* NTOUIOSHW1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NTOUIOSHW1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D34457206B76B900325DC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75D34459206B76B900325DC5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75D3445C206B76B900325DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75D3445E206B76B900325DC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		75D34461206B76B900325DC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		75D34473206B76B900325DC5 /* NTOUIOSHW1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NTOUIOSHW1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75D34477206B76B900325DC5 /* NTOUIOSHW1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NTOUIOSHW1UITests.swift; sourceTree = "<group>"; };
 		75D34479206B76B900325DC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75D34485206B784400325DC5 /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +77,7 @@
 		75D3444B206B76B900325DC5 = {
 			isa = PBXGroup;
 			children = (
+				75D34485206B784400325DC5 /* MasterTableViewController.swift */,
 				75D34456206B76B900325DC5 /* NTOUIOSHW1 */,
 				75D3446B206B76B900325DC5 /* NTOUIOSHW1Tests */,
 				75D34476206B76B900325DC5 /* NTOUIOSHW1UITests */,
@@ -98,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				75D34457206B76B900325DC5 /* AppDelegate.swift */,
-				75D34459206B76B900325DC5 /* ViewController.swift */,
 				75D3445B206B76B900325DC5 /* Main.storyboard */,
 				75D3445E206B76B900325DC5 /* Assets.xcassets */,
 				75D34460206B76B900325DC5 /* LaunchScreen.storyboard */,
@@ -259,8 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75D3445A206B76B900325DC5 /* ViewController.swift in Sources */,
 				75D34458206B76B900325DC5 /* AppDelegate.swift in Sources */,
+				75D34486206B784400325DC5 /* MasterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
